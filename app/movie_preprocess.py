@@ -44,3 +44,4 @@ def add_poster(df):
 merged_df['poster_path'] =None
 merged_df = add_poster(merged_df)
 print(merged_df)
+merged_df.to_csv("data/movies_final.csv", index=None)
