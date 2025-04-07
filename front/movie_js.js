@@ -4,7 +4,7 @@ let MovieObject = {
     },
 
     getall: function(){
-       alert("getall  함수가 불려짐")
+       alert("getall  함수가 불려짐.")
        $.ajax({
        // 실행할 코드
           type: "GET",
