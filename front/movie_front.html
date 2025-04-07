@@ -18,11 +18,36 @@
 <h1> 우정광 첫 영화추천 서비스.</h1>
 </div>
 
+<hr>
 <h2>오늘의 영화 추천</h2>
+<hr>
 
-<div></div>
+<div id="alldiv" style="column-count: 5;"></div>
 
+<hr>
 <h2>장르별 추천</h2>
+<hr>
+<select id="sgenre">
+    <option value="Comedy">코미디</option>
+    <option value="Adventure">어드벤쳐</option>
+    <option value="Drama" selected>드라마</option>
+    <option value="Crime">범죄</option>
+</select>
+<button type="button" class="btn bg-primary btn-lg" onclick="MovieObject.getgenres()">장르선택</button>
+
+<div id="genrediv" style="column-count: 5;"></div>
+
+<hr>
+<h2>영화기반 추천</h2>
+<hr>
+
+<div id="itemdiv" style="column-count: 5;"></div>
+
+<hr>
+<h2>사용자 기반반 추천</h2>
+<hr>
+
+<div id="userdiv" style="column-count: 5;"></div>
 
 </body>
 </html>
